@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6244c5;
+  --color-primary-dark: #493199;
+  --color-primary-light: #8059e3;
+  --color-secondary: #ffc448;
+  --color-secondary-dark: #ffb428;
+  --color-secondary-light: #ffd468;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.component-px {
+  @apply px-4 sm:px-8 md:px-12 lg:px-20 xl:px-24 2xl:px-32;
+}
