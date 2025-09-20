@@ -1,35 +1,38 @@
 export const projects = [
   {
+    title: "Nimbus Global HR - Resource solutions",
+    description: "A resource management platform for HR professionals.",
+    image: "/product-images/nimbus.png",
+    technologies: ["Next.js", "Axios", "Ant.Design", "Context API"],
+    category: "official",
+    liveUrl: "https://nimbusglobalhr.com", // Replace with actual URL if available
+    status: "completed",
+  },
+  {
     title: "Smile Fashion - Shop in bulk",
     description:
       "An e-commerce platform for bulk shopping with modern UI and seamless user experience.",
-    image: "/project-images/smile-fashion.png",
+    image: "/product-images/smile-fashion.png",
     technologies: ["Next.js", "Tailwind CSS", "GraphQL", "Context API"],
     category: "official",
     liveUrl: "https://smilefashion.com.np", // Replace with actual URL if available
     status: "completed",
   },
   {
-    title: "Rivia Infosys",
+    title: "Pine Visa - Visas Without Hassle",
     description:
-      "Corporate website with dynamic animations and responsive design for Rivia Infosys.",
-    image: "/project-images/rivia-infosys.png",
-    technologies: [
-      "Next.js",
-      "Framer Motion",
-      "Shadcn",
-      "Tailwind CSS",
-      "Ant.Design",
-    ],
+      "A visa application platform simplifying the visa process for travelers.",
+    image: "/product-images/pine-visa.png",
+    technologies: ["PHP", "HTML", "Tailwind CSS"],
     category: "official",
-    liveUrl: "https://riviainfosys.com", // Replace with actual URL if available
+    liveUrl: "https://pinevisa.com", // Replace with actual URL if available
     status: "completed",
   },
   {
     title: "HRxplor - Find your next job",
     description:
       "A job portal connecting employers and candidates with real-time communication features.",
-    image: "/project-images/hrxplor.png",
+    image: "/product-images/hrxplor.png",
     technologies: [
       "Express.js",
       "Next.js",
@@ -44,10 +47,42 @@ export const projects = [
     status: "completed",
   },
   {
+    title: "Edxplor - Choose your path",
+    description:
+      "An educational platform helping students explore and select career paths.",
+    image: "/product-images/edxplor.png",
+    technologies: [
+      "Express.js",
+      "PostgreSQL",
+      "Next.js",
+      "Axios",
+      "Context API",
+    ],
+    category: "official",
+    liveUrl: "https://edxplor.com", // Replace with actual URL if available
+    status: "completed",
+  },
+  {
+    title: "Rivia Infosys",
+    description:
+      "Corporate website with dynamic animations and responsive design for Rivia Infosys.",
+    image: "/product-images/rivia-infosys.png",
+    technologies: [
+      "Next.js",
+      "Framer Motion",
+      "Shadcn",
+      "Tailwind CSS",
+      "Ant.Design",
+    ],
+    category: "official",
+    liveUrl: "https://riviainfosys.com", // Replace with actual URL if available
+    status: "completed",
+  },
+  {
     title: "One College - Your college guide",
     description:
       "A platform providing guidance and resources for students choosing colleges.",
-    image: "/project-images/one-college.png",
+    image: "/product-images/one-college.png",
     technologies: [
       "Express.js",
       "Next.js",
@@ -62,45 +97,21 @@ export const projects = [
     status: "completed",
   },
   {
-    title: "Edxplor - Choose your path",
-    description:
-      "An educational platform helping students explore and select career paths.",
-    image: "/project-images/edxplor.png",
-    technologies: [
-      "Express.js",
-      "PostgreSQL",
-      "Next.js",
-      "Axios",
-      "Context API",
-    ],
-    category: "official",
-    liveUrl: "https://edxplor.com", // Replace with actual URL if available
-    status: "completed",
-  },
-  {
     title: "Aguh - Your Hiring Partner",
     description:
       "A hiring platform streamlining recruitment processes for businesses.",
-    image: "/project-images/aguh.png",
+    image: "/product-images/aguh.png",
     technologies: ["Node.js", "Express", "PostgreSQL", "Next.js", "Ant.Design"],
     category: "official",
     liveUrl: "https://aguh.com", // Replace with actual URL if available
     status: "completed",
   },
-  {
-    title: "Nimbus Global HR - Resource solutions",
-    description: "A resource management platform for HR professionals.",
-    image: "/project-images/nimbus.png",
-    technologies: ["Next.js", "Axios", "Ant.Design", "Context API"],
-    category: "official",
-    liveUrl: "https://nimbusglobalhr.com", // Replace with actual URL if available
-    status: "completed",
-  },
+
   {
     title: "F1Prep - AI-based Preparation for F1 Visa",
     description:
       "An AI-powered platform assisting users in preparing for F1 visa interviews (Under Development).",
-    image: "/project-images/f1prep.png",
+    image: "/product-images/f1prep.png",
     technologies: [
       "Express.js",
       "PostgreSQL",
@@ -123,7 +134,7 @@ export const projects = [
     title: "Hubforwheeler - Rent & Book Vehicles",
     description:
       "A vehicle rental platform with booking and scheduling features.",
-    image: "/project-images/hub-for-wheelers.png",
+    image: "/product-images/hub-for-wheelers.png",
     technologies: [
       "Express.js",
       "PostgreSQL",
@@ -140,7 +151,7 @@ export const projects = [
     title: "Nepal Treks Himalayan - Treks & Tours",
     description:
       "A travel platform offering trekking and tour packages in Nepal.",
-    image: "/project-images/nepal-treks-himalayan.png",
+    image: "/product-images/nepal-treks-himalayan.png",
     technologies: [
       "Next.js",
       "Tailwind CSS",
@@ -152,21 +163,12 @@ export const projects = [
     liveUrl: "https://nepaltrekshimalayan.com", // Replace with actual URL if available
     status: "completed",
   },
-  {
-    title: "Pine Visa - Visas Without Hassle",
-    description:
-      "A visa application platform simplifying the visa process for travelers.",
-    image: "/project-images/pine-visa.png",
-    technologies: ["PHP", "HTML", "Tailwind CSS"],
-    category: "official",
-    liveUrl: "https://pinevisa.com", // Replace with actual URL if available
-    status: "completed",
-  },
+
   {
     title: "Facial Attendance System",
     description:
       "A smart attendance system using facial recognition technology.",
-    image: "/project-images/smart-presence.png",
+    image: "/product-images/smart-presence.png",
     technologies: [
       "Express.js",
       "Python",
@@ -180,7 +182,7 @@ export const projects = [
       "CI/CD",
     ],
     category: "personal",
-    githubUrl: "https://smartpresence.pushkar.live/", // Replace with actual URL if available
+    githubUrl: "https://smartpresence.pushkar.live/",
     status: "completed",
   },
   {

@@ -57,7 +57,7 @@ export default async function AppLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} antialiased bg-gradient-to-br from-gray-50 to-white`}
+        className={`${poppins.className} antialiased bg-white text-gray-900`}
       >
         {children}
       </body>

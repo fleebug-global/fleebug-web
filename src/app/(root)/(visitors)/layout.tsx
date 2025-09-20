@@ -9,7 +9,7 @@ export default function RootLayout({
   return (
     <>
       <Navbar />
-      <div>{children}</div>
+      <div className="w-full">{children}</div>
       <Footer />
     </>
   );

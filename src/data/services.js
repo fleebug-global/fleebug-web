@@ -1,18 +1,19 @@
+import { Code, Smartphone } from "lucide-react";
+
 export const services = [
   {
-    title: "Custom Software Development",
-    description: "We build modern and responsive software for your business.",
-    image: "https://placehold.co/600x400",
+    icon: <Code className="w-6 h-6 " />,
+    title: "Custom Software",
+    description: "Tailored solutions for your unique business needs.",
   },
   {
-    title: "Mobile App Development",
-    description:
-      "We build modern and responsive mobile apps for your business.",
-    image: "https://placehold.co/600x400",
+    icon: <Smartphone className="w-6 h-6" />,
+    title: "Mobile Applications",
+    description: "Native and cross-platform mobile experiences.",
   },
   {
-    title: "UI/UX Design",
-    description: "We design modern and responsive UI/UX for your business.",
-    image: "https://placehold.co/600x400",
+    icon: <Code className="w-6 h-6" />,
+    title: "Digital Products",
+    description: "End-to-end product development and strategy.",
   },
 ];

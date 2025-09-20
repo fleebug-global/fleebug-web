@@ -9,44 +9,45 @@ const Navbar = () => {
 
   const navigation = [
     { name: "Home", href: "/" },
-    { name: "Services", href: "#services" },
-    { name: "Products", href: "#products" },
-    { name: "Projects", href: "#projects" },
-    { name: "About", href: "#about" },
-    { name: "Contact", href: "/contact" },
+    { name: "Services", href: "/#services" },
+    { name: "Products", href: "/#products" },
+    { name: "Projects", href: "/#projects" },
+    { name: "About", href: "/#about" },
   ];
 
   return (
-    <nav className="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-200">
+    <nav className="fixed top-0 w-full z-50 bg-white/60 backdrop-blur-sm shadow-sm">
       <div className="component-px">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <Image src="/logo.png" alt="Fleebug" width={40} height={40} />
-            <span className="text-2xl font-bold text-gray-900">Fleebug</span>
+          <Link href="/" className="flex items-center space-x-2.5">
+            <Image src="/logo.png" alt="Fleebug" width={32} height={32} />
+            <span className="text-2xl font-medium text-gray-900 tracking-tight">
+              Fleebug.
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-12">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-gray-600 hover:text-primary transition-colors duration-200 font-medium"
+                className="text-gray-900 hover:text-gray-900 transition-all duration-300 font-light hover:scale-101 text-sm tracking-wide"
               >
                 {item.name}
               </Link>
             ))}
             <Link
               href="/contact"
-              className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary-dark transition-colors duration-200 font-medium"
+              className="bg-gray-900 text-white px-8 py-3 rounded-full hover:bg-gray-800 transition-all duration-300 font-medium text-sm tracking-wide shadow-lg hover:shadow-xl"
             >
-              Get Started
+              Contact
             </Link>
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="text-gray-600 hover:text-gray-900 transition-colors"
@@ -62,13 +63,13 @@ const Navbar = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-200 bg-white/95 backdrop-blur-md">
-            <div className="flex flex-col space-y-4">
+          <div className="lg:hidden py-8 border-t border-gray-100 bg-white/95 backdrop-blur-sm">
+            <div className="flex flex-col space-y-6">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-gray-600 hover:text-primary transition-colors duration-200 font-medium"
+                  className="text-gray-500 hover:text-gray-900 transition-colors duration-300 font-light text-sm tracking-wide"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
@@ -76,10 +77,10 @@ const Navbar = () => {
               ))}
               <Link
                 href="/contact"
-                className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary-dark transition-colors duration-200 font-medium text-center"
+                className="bg-gray-900 text-white px-8 py-3 rounded-full hover:bg-gray-800 transition-all duration-300 font-medium text-center text-sm tracking-wide shadow-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Get Started
+                Contact
               </Link>
             </div>
           </div>
