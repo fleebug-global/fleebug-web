@@ -9,17 +9,24 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Fleebug",
-  description: "Fleebug",
+  title: "Fleebug - Software Development Solutions",
+  description:
+    "Professional software development company providing custom software solutions, mobile app development, UI/UX design, and innovative products like Scholar school management system.",
   keywords: [
     "Fleebug",
-    "Fleebug Software Solutions",
-    "Software Solutions",
     "Software Development",
-    "Software Engineering",
-    "Software Architecture",
+    "Custom Software Solutions",
+    "Mobile App Development",
+    "UI/UX Design",
+    "Web Development",
+    "School Management System",
+    "Scholar",
+    "NeoX.js",
+    "Backend Framework",
+    "Kathmandu Nepal",
+    "Software Company",
+    "Digital Solutions",
     "Pushkar Kumar Sah",
-    "pushkarcdn",
     "Shivam Kumar Thakur",
   ],
   authors: [
@@ -32,6 +39,14 @@ export const metadata: Metadata = {
       url: "https://linkedin.com/in/dashivam06",
     },
   ],
+  openGraph: {
+    title: "Fleebug - Software Development Solutions",
+    description:
+      "Professional software development company providing custom software solutions, mobile app development, and innovative products.",
+    url: "https://fleebug.com",
+    siteName: "Fleebug",
+    type: "website",
+  },
 };
 
 export default async function AppLayout({
