@@ -1,13 +1,7 @@
-import Hero from "@/components/visitors/home/Hero";
-import About from "@/components/visitors/home/About";
-import Experience from "@/components/visitors/home/Experience";
+import React from "react";
 
-export default function Home() {
-  return (
-    <div className="w-full">
-      <Hero />
-      <About />
-      <Experience />
-    </div>
-  );
-}
+const page = () => {
+  return <div>page</div>;
+};
+
+export default page;

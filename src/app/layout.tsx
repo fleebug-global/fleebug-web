@@ -13,11 +13,14 @@ export const metadata: Metadata = {
   description: "Fleebug",
   keywords: [
     "Fleebug",
+    "Fleebug Software Solutions",
+    "Software Solutions",
+    "Software Development",
+    "Software Engineering",
+    "Software Architecture",
     "Pushkar Kumar Sah",
-    "Software Engineer",
-    "Pushkar Sah",
-    "Shivam Kumar Thakur",
     "pushkarcdn",
+    "Shivam Kumar Thakur",
   ],
   authors: [
     {
