@@ -13,5 +13,5 @@
 }
 
 .component-px {
-  @apply px-4 sm:px-8 md:px-12 lg:px-20 xl:px-24 2xl:px-32;
+  @apply px-4 sm:px-8 md:px-12 lg:px-20 xl:px-36 2xl:px-44;
 }

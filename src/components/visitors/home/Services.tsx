@@ -11,7 +11,7 @@ const Services = () => {
               What We Do
             </h2>
             <p className="text-xl text-gray-500 max-w-2xl mx-auto font-light">
-              We specialize in creating premium digital solutions.
+              Fleebug specializes in creating premium digital solutions.
             </p>
           </div>
 

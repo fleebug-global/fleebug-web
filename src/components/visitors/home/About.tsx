@@ -6,14 +6,14 @@ const About = () => {
   return (
     <section id="about" className="py-32 bg-white">
       <div className="component-px">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl md:text-6xl font-light text-gray-900 mb-8 tracking-tight">
             About Fleebug
           </h2>
           <p className="text-xl text-gray-500 leading-relaxed font-light mb-12">
-            We are a boutique software development studio based in Kathmandu,
-            Nepal. Founded by passionate developers, we create premium digital
-            solutions for businesses worldwide.
+            Fleebug is a boutique software development studio based in
+            Kathmandu, Nepal. Founded by passionate developers, we create
+            premium digital solutions for businesses worldwide.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-16">

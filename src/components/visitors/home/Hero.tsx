@@ -15,17 +15,17 @@ const Hero = () => {
 
       <div className="component-px relative z-10 w-full">
         <div className="max-w-6xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-16 items-center pt-6 md:pt-12 lg:pt-16">
+          <div className="grid lg:grid-cols-2 gap-16 items-center pt-16">
             {/* Left side - Content */}
             <div className="text-left">
               <div className="inline-flex items-center space-x-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-gray-200 mb-3">
                 <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                <span className="text-sm font-medium text-gray-600">
+                <span className="text-xs sm:text-sm font-medium text-gray-600">
                   Software Company
                 </span>
               </div>
 
-              <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                 We Build
                 <br />
                 <span className="bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent">
@@ -33,7 +33,7 @@ const Hero = () => {
                 </span>
               </h1>
 
-              <p className="text-xl text-gray-600 mb-8 leading-relaxed max-w-xl">
+              <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-8 leading-relaxed max-w-xl">
                 Transforming ideas into powerful software solutions that drive
                 innovation and growth.
               </p>
@@ -41,14 +41,14 @@ const Hero = () => {
               <div className="flex flex-col sm:flex-row gap-4 mb-12">
                 <Link
                   href="/contact"
-                  className="bg-gray-900 text-white px-8 py-4 rounded-2xl hover:bg-gray-800 transition-all duration-300 font-semibold flex items-center justify-center space-x-3 text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
+                  className="bg-gray-900 text-white px-8 py-4 rounded-2xl hover:bg-gray-800 transition-all duration-300 font-semibold flex items-center justify-center space-x-3 text-base sm:text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
                 >
                   <span>Get your software</span>
                   <ArrowRight className="w-5 h-5" />
                 </Link>
                 <Link
                   href="#projects"
-                  className="border-2 border-gray-200 text-gray-700 px-8 py-4 rounded-2xl hover:border-gray-900 hover:text-gray-900 transition-all duration-300 font-semibold text-lg text-center bg-white/50 backdrop-blur-sm"
+                  className="border-2 border-gray-200 text-gray-700 px-8 py-4 rounded-2xl hover:border-gray-900 hover:text-gray-900 transition-all duration-300 font-semibold text-base sm:text-lg text-center bg-white/50 backdrop-blur-sm"
                 >
                   Explore Our Work
                 </Link>

@@ -16,12 +16,24 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-0 w-full z-50 bg-white/60 backdrop-blur-sm shadow-sm">
-      <div className="component-px">
+    <nav
+      className={`fixed top-0 w-full z-50 component-px ${
+        isMenuOpen
+          ? "bg-white/95 backdrop-blur-md shadow-lg"
+          : "bg-white/60 backdrop-blur-sm shadow-sm "
+      }`}
+    >
+      <div className="max-w-6xl mx-auto">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2.5">
-            <Image src="/logo.png" alt="Fleebug" width={32} height={32} />
+            <Image
+              src="/logo.svg"
+              alt="Fleebug"
+              width={120}
+              height={120}
+              className="h-10 w-10"
+            />
             <span className="text-2xl font-medium text-gray-900 tracking-tight">
               Fleebug.
             </span>
@@ -63,7 +75,7 @@ const Navbar = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="lg:hidden py-8 border-t border-gray-100 bg-white/95 backdrop-blur-sm">
+          <div className="lg:hidden max-lg:component-px py-8">
             <div className="flex flex-col space-y-6">
               {navigation.map((item) => (
                 <Link

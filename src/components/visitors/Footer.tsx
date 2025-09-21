@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="component-px py-20">
-        <div className="max-w-4xl mx-auto">
+        <div className="mx-auto">
           <div className="text-center mb-12">
             <Link href="/" className="inline-block mb-8">
               <span className="text-3xl font-light text-white tracking-tight">
