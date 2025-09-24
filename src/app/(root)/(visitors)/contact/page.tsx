@@ -69,7 +69,7 @@ const ContactPage = () => {
             </div>
 
             <div className="grid md:grid-cols-2 gap-16 mb-20">
-              <div>
+              <div className="max-md:order-2 max-md:text-center">
                 <h2 className="text-2xl font-medium text-gray-900 mb-8 tracking-tight">
                   Get in touch
                 </h2>
@@ -99,7 +99,7 @@ const ContactPage = () => {
                 </div>
               </div>
 
-              <div>
+              <div className="max-md:order-1">
                 {isSubmitted === true ? (
                   <div className="text-center py-12">
                     <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -164,7 +164,7 @@ const ContactPage = () => {
                     </div>
                     <button
                       type="submit"
-                      className="bg-gray-900 text-white px-12 py-4 rounded-full hover:bg-gray-800 transition-all duration-300 font-medium flex items-center space-x-3 shadow-lg hover:shadow-xl cursor-pointer"
+                      className="bg-gray-900 text-white px-12 py-4 rounded-full hover:bg-gray-800 transition-all duration-300 font-medium flex items-center justify-center space-x-3 shadow-lg hover:shadow-xl cursor-pointer select-none max-md:w-full"
                     >
                       <span>Send Message</span>
                       <Send className="w-5 h-5" />
