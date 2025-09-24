@@ -13,7 +13,8 @@ export const services = [
   },
   {
     icon: <Code className="w-6 h-6" />,
-    title: "Digital Products",
-    description: "End-to-end product development and strategy.",
+    title: "Automation & Web Scraping",
+    description:
+      "We scrape, clean, and export leads for you in any format like CSV, Excel, or JSON.",
   },
 ];

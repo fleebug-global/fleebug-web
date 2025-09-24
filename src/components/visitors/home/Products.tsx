@@ -57,7 +57,7 @@ const Products = () => {
                   <div className="flex-1"></div>
 
                   <Link
-                    href={product.isReleased ? product.link : ""}
+                    href={product.isReleased ? product.link : "/#products"}
                     target={product.isReleased ? "_blank" : "_self"}
                     className={`inline-flex items-center justify-center px-6 py-2.5 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-all duration-200 font-medium text-sm shadow-lg hover:shadow-xl transform hover:-translate-y-0.5  ${
                       !product.isReleased ? "cursor-not-allowed opacity-80" : ""

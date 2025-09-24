@@ -3,6 +3,12 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
+import { Outfit } from "next/font/google";
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,8 +40,10 @@ const Navbar = () => {
               height={120}
               className="h-10 w-10"
             />
-            <span className="text-2xl font-medium text-gray-900 tracking-tight">
-              Fleebug.
+            <span
+              className={`text-2xl font-medium text-gray-900 tracking-tight ${outfit.className}`}
+            >
+              Fleebug Inc.
             </span>
           </Link>
 

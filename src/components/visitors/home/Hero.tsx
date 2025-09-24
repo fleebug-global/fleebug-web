@@ -38,7 +38,7 @@ const Hero = () => {
                 innovation and growth.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 mb-12">
+              <div className="flex flex-col sm:flex-row gap-4 mb-12 select-none">
                 <Link
                   href="/contact"
                   className="bg-gray-900 text-white px-8 py-4 rounded-2xl hover:bg-gray-800 transition-all duration-300 font-semibold flex items-center justify-center space-x-3 text-base sm:text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
@@ -82,7 +82,7 @@ const Hero = () => {
             </div>
 
             {/* Right side - Visual Elements */}
-            <div className="hidden lg:block relative">
+            <div className="hidden lg:block relative select-none">
               <div className="relative bg-white rounded-3xl shadow-2xl p-8 border border-gray-100">
                 {/* Code editor mockup */}
                 <div className="bg-gray-900 rounded-2xl p-6 mb-6">
