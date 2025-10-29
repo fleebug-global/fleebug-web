@@ -10,7 +10,7 @@ const Projects = () => {
       (project) =>
         project.category === "official" && project.status === "completed"
     )
-    .slice(0, 5);
+    .slice(0, 3);
 
   return (
     <section id="projects" className="py-32 bg-gray-50">
