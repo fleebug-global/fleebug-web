@@ -13,7 +13,7 @@ export const products = [
       "Course & Subject Management",
       "Library Management",
     ],
-    link: "https://scholar.fleebug.com",
+    link: "https://dev.scholar.fleebug.com",
     isReleased: true,
   },
   {
