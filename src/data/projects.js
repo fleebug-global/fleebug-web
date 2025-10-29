@@ -8,16 +8,16 @@ export const projects = [
     liveUrl: "https://nimbusglobalhr.com", // Replace with actual URL if available
     status: "completed",
   },
-  {
-    title: "Smile Fashion - Shop in bulk",
-    description:
-      "An e-commerce platform for bulk shopping with modern UI and seamless user experience.",
-    image: "/product-images/smile-fashion.png",
-    technologies: ["Next.js", "Tailwind CSS", "GraphQL", "Context API"],
-    category: "official",
-    liveUrl: "https://smilefashion.com.np", // Replace with actual URL if available
-    status: "completed",
-  },
+  // {
+  //   title: "Smile Fashion - Shop in bulk",
+  //   description:
+  //     "An e-commerce platform for bulk shopping with modern UI and seamless user experience.",
+  //   image: "/product-images/smile-fashion.png",
+  //   technologies: ["Next.js", "Tailwind CSS", "GraphQL", "Context API"],
+  //   category: "official",
+  //   liveUrl: "https://smilefashion.com.np", // Replace with actual URL if available
+  //   status: "completed",
+  // },
   {
     title: "Pine Visa - Visas Without Hassle",
     description:
@@ -62,22 +62,22 @@ export const projects = [
     liveUrl: "https://edxplor.com", // Replace with actual URL if available
     status: "completed",
   },
-  {
-    title: "Rivia Infosys",
-    description:
-      "Corporate website with dynamic animations and responsive design for Rivia Infosys.",
-    image: "/product-images/rivia-infosys.png",
-    technologies: [
-      "Next.js",
-      "Framer Motion",
-      "Shadcn",
-      "Tailwind CSS",
-      "Ant.Design",
-    ],
-    category: "official",
-    liveUrl: "https://riviainfosys.com", // Replace with actual URL if available
-    status: "completed",
-  },
+  // {
+  //   title: "Rivia Infosys",
+  //   description:
+  //     "Corporate website with dynamic animations and responsive design for Rivia Infosys.",
+  //   image: "/product-images/rivia-infosys.png",
+  //   technologies: [
+  //     "Next.js",
+  //     "Framer Motion",
+  //     "Shadcn",
+  //     "Tailwind CSS",
+  //     "Ant.Design",
+  //   ],
+  //   category: "official",
+  //   liveUrl: "https://riviainfosys.com", // Replace with actual URL if available
+  //   status: "completed",
+  // },
   {
     title: "One College - Your college guide",
     description:
