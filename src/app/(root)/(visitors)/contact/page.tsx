@@ -83,7 +83,7 @@ const ContactPage = () => {
                       {contact.professionalEmail[0]}
                     </a>
                   </div>
-                  {/* <div>
+                  <div>
                     <p className="text-gray-500 font-light mb-2">Phone</p>
                     <a
                       href={`tel:${contact.professionalPhone}`}
@@ -91,7 +91,7 @@ const ContactPage = () => {
                     >
                       {contact.professionalPhone}
                     </a>
-                  </div> */}
+                  </div> 
                   <div>
                     <p className="text-gray-500 font-light mb-2">Location</p>
                     <p className="text-gray-900">{contact.address}</p>

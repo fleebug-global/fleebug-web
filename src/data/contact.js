@@ -2,7 +2,7 @@ export const contact = {
   personalEmail: ["mail@fleebug.com", "support@fleebug.com"],
   personalPhone: "+977",
   professionalEmail: ["info@fleebug.com", "support@fleebug.com"],
-  professionalPhone: "+977",
+  professionalPhone: "+977 9764396859",
   address: "Kathmandu, Nepal",
 };
 
