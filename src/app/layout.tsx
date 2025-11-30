@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
     {
-      url: "https://fleebug.com/og-image.png",
+      url: "https://fleebug.com/logo.png",
       width: 1200,
       height: 630,
       alt: "Fleebug | Leading Software Development Company",
