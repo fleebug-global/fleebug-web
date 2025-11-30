@@ -11,9 +11,17 @@ const About = () => {
             About Fleebug
           </h2>
           <p className="text-xl text-gray-500 leading-relaxed font-light mb-12">
-            Fleebug is a boutique software development studio based in
+            {/* Fleebug is a boutique software development studio based in
             Kathmandu, Nepal. Founded by passionate developers, we create
-            premium digital solutions for businesses worldwide.
+            premium digital solutions for businesses worldwide. */}
+            Fleebug builds highly scalable, robust, and intelligent software
+            systems for businesses that empower them to thrive. As a leading
+            software company, we combine advanced engineering, smart automation,
+            and innovative solutions to help companies tackle complex
+            challenges, drive growth, and achieve long-term success. With over
+            two years of experience, we have delivered successful solutions to
+            numerous clients who continue to rely on and highly value our
+            expertise in building their digital systems.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-16">
