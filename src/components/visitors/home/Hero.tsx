@@ -15,7 +15,7 @@ const Hero = () => {
 
       <div className="component-px relative z-10 w-full">
         <div className="max-w-6xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-16 items-center pt-16">
+          <div className="grid lg:grid-cols-2 gap-16 md:gap-10  items-center pt-16">
             {/* Left side - Content */}
             <div className="text-left">
               <div className="inline-flex items-center space-x-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-gray-200 mb-3">
@@ -28,8 +28,9 @@ const Hero = () => {
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                 We Build
                 <br />
-                <span className="bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent">
-                  Digital Dreams
+                <span className="md:text-[3.2rem] bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent">
+                  {/* Digital Dreams */}
+                  Scalable Software
                 </span>
               </h1>
 
