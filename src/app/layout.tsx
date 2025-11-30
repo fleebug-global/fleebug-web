@@ -9,9 +9,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Fleebug - Software Development Solutions",
+  title: "Fleebug | Leading Software Development Company",
   description:
-    "Professional software development company providing custom software solutions, mobile app development, UI/UX design, and innovative products like Scholar school management system.",
+    "Fleebug creates scalable software, AI solutions, web scraping solutions, custom web development, and automation that empower businesses to grow and innovate.",
   keywords: [
     "Fleebug",
     "Software Development",
@@ -40,12 +40,20 @@ export const metadata: Metadata = {
     },
   ],
   openGraph: {
-    title: "Fleebug - Software Development Solutions",
+    title: "Fleebug | Leading Software Development Company",
     description:
-      "Professional software development company providing custom software solutions, mobile app development, and innovative products.",
+      "Fleebug creates scalable software, AI solutions, web scraping solutions, custom web development, and automation that empower businesses to grow and innovate.",
     url: "https://fleebug.com",
     siteName: "Fleebug",
     type: "website",
+    images: [
+    {
+      url: "https://fleebug.com/og-image.png",
+      width: 1200,
+      height: 630,
+      alt: "Fleebug | Leading Software Development Company",
+    },
+  ],
   },
 };
 
